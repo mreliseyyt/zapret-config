@@ -1,5 +1,5 @@
 @echo off
-set "LOCAL_VERSION=1.9.3"
+set "LOCAL_VERSION=1.0.0"
 
 :: External commands
 if "%~1"=="status_zapret" (
@@ -330,7 +330,7 @@ cls
 
 :: Set current version and URLs
 set "GITHUB_VERSION_URL=https://raw.githubusercontent.com/mreliseyyt/zapret-config/refs/heads/main/service/version.txt"
-set "GITHUB_RELEASE_URL=https://github.com/mreliseyyt/zapret-config/releases/tag/"
+set "GITHUB_RELEASE_URL=https://github.com/mreliseyyt/zapret-config/releases/tag/zapret "
 set "GITHUB_DOWNLOAD_URL=https://github.com/mreliseyyt/zapret-config/releases/latest/download/zapret-config-"
 
 :: Get the latest version from GitHub
